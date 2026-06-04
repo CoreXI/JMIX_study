@@ -1,24 +1,16 @@
 package collections;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
 public class Main {
-	List<String> names = new ArrayList<>();
+	// TreeMap хранит имена как ключи — отдельный List<String> names не нужен
 	Map<String, Integer> nameToGrade = new TreeMap<>();
 	Set<Integer> uniqueGrades = new HashSet<>();
 
 	public Main() {
-		names.add("Aлиса");
-		names.add("Боб");
-		names.add("Карл");
-		names.add("Диана");
-		names.add("Ева");
-
 		nameToGrade.put("Aлиса", 85);
 		nameToGrade.put("Боб", 92);
 		nameToGrade.put("Карл", 78);
@@ -31,9 +23,11 @@ public class Main {
 	public static void main(String[] args) {
 		Main main = new Main();
 
+		// keySet() возвращает имена из Map — дублировать в отдельный List не нужно
 		System.out.println("Список имён:");
-		for (int i = 0; i < main.names.size(); i++) {
-			System.out.println(String.format("%d. %s", i + 1, main.names.get(i)));
+		int i = 1;
+		for (String name : main.nameToGrade.keySet()) {
+			System.out.println(i++ + ". " + name);
 		}
 		System.out.println("\nОценки студентов:");
 		for (String name : main.nameToGrade.keySet()) {
