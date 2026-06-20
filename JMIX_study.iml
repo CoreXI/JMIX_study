@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/block-0-java-core/03-collections/task" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/block-0-java-core/04-exceptions/task" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/block-0-java-core/05-generics/task" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/block-0-java-core/06-streams/task" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
