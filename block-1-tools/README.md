@@ -6,12 +6,12 @@
 
 ## Темы блока
 
-| # | Тема | Статус |
-|---|------|--------|
-| 1 | IntelliJ IDEA — среда разработки, горячие клавиши, структура проекта | не начата |
-| 2 | Gradle — сборщик проекта (аналог npm/package.json) | не начата |
-| 3 | PostgreSQL — реляционная БД | не начата |
-| 4 | Docker — запуск PostgreSQL локально в контейнере | не начата |
+| # | Тема | Теория | Задание | Статус |
+|---|------|--------|---------|--------|
+| 1 | IntelliJ IDEA | [01-intellij/theory.md](01-intellij/theory.md) | [01-intellij/task.md](01-intellij/task.md) | не начата |
+| 2 | Gradle | [02-gradle/theory.md](02-gradle/theory.md) | [02-gradle/task.md](02-gradle/task.md) | не начата |
+| 3 | PostgreSQL | [03-postgresql/theory.md](03-postgresql/theory.md) | [03-postgresql/task.md](03-postgresql/task.md) | не начата |
+| 4 | Docker | [04-docker/theory.md](04-docker/theory.md) | [04-docker/task.md](04-docker/task.md) | не начата |
 
 ## Что переносится из Node.js
 
