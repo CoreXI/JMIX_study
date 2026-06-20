@@ -11,8 +11,8 @@
 | 2 | Классы и ООП | [02-oop/theory.md](02-oop/theory.md) | [02-oop/task.md](02-oop/task.md) | не начата |
 | 3 | Коллекции | [03-collections/theory.md](03-collections/theory.md) | [03-collections/task.md](03-collections/task.md) | не начата |
 | 4 | Исключения | [04-exceptions/theory.md](04-exceptions/theory.md) | [04-exceptions/task.md](04-exceptions/task.md) | не начата |
-| 5 | Generics | [05-generics/theory.md](05-generics/theory.md) | [05-generics/task.md](05-generics/task.md) | не начата |
-| 6 | Stream API | [06-streams/theory.md](06-streams/theory.md) | [06-streams/task.md](06-streams/task.md) | не начата |
+| 5 | Generics | [05-generics/theory.md](05-generics/theory.md) | [05-generics/task.md](05-generics/task.md) | ✅ завершена |
+| 6 | Stream API | [06-streams/theory.md](06-streams/theory.md) | [06-streams/task.md](06-streams/task.md) | ✅ завершена |
 
 ## Порядок прохождения
 
